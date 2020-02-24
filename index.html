@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>OSS</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#">Logo</a>
+        </div>
+        <div class="header__menu-wrapper">
+          <nav class="navigation">
+            <ul class="navigation__menu">
+              <li class="navigation__list">
+                <a class="navigation__link" href="#">Home</a>
+              </li>
+              <li class="navigation__list">
+                <a class="navigation__link" href="#">Portfolio</a>
+              </li>
+              <li class="navigation__list">
+                <a class="navigation__link" href="#">Blog</a>
+              </li>
+              <li class="navigation__list">
+                <a class="navigation__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <input
+              class="header__search-input"
+              type="text"
+              name="search"
+              placeholder="search"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="blog-slider__container">
+      <div class="blogSlides fade">
+        <picture>
+          <source
+            type="image/jpg"
+            media="(min-width: 768px)"
+            srcset="img/slider1.jpg 1x, img/slider1@2x.jpg 2x"
+          />
+          <img
+            src="img/slider1-mob.jpg"
+            srcset="img/slider1-mob@2x.jpg 2x"
+            alt="slider-1"
+          />
+        </picture>
+      </div>
+
+      <div class="blogSlides fade">
+        <picture>
+          <source
+            type="image/jpg"
+            media="(min-width: 768px)"
+            srcset="img/slider2.jpg 1x, img/slider2@2x.jpg 2x"
+          />
+          <img
+            src="img/slider2-mob.jpg"
+            srcset="img/slider2-mob@2x.jpg 2x"
+            alt="slider-2"
+          />
+        </picture>
+      </div>
+
+      <div class="blogSlides fade">
+        <picture>
+          <source
+            type="image/jpg"
+            media="(min-width: 768px)"
+            srcset="img/slider3.jpg 1x, img/slider3@2x.jpg 2x"
+          />
+          <img
+            src="img/slider3-mob.jpg"
+            srcset="img/slider3-mob@2x.jpg 2x"
+            alt="slider-3"
+          />
+        </picture>
+      </div>
+
+      <a class="prev" tabindex="0">&#10094;</a>
+      <a class="next" tabindex="0">&#10095;</a>
+      <div class="blogSlider__dots" style="text-align:center">
+        <span class="blogSlider__dots--dot" data-slider="1"></span>
+        <span class="blogSlider__dots--dot" data-slider="2"></span>
+        <span class="blogSlider__dots--dot" data-slider="3"></span>
+      </div>
+    </div>
+    <section class="news">
+      <div class="news__wrapper">
+        <div class="news__item">
+          <img class="news__img" src="img/news_1.jpg" alt="news-1" />
+          <p class="news__info">
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis
+            autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis
+            autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem
+            vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer
+          </p>
+          <div class="news__link-container">
+            <a class="news__link" href="#">more...</a>
+          </div>
+        </div>
+        <div class="news__item">
+          <img class="news__img" src="img/news_2.jpg" alt="news-2" />
+          <p class="news__info">
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis
+            autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis
+            autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem
+            vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer
+          </p>
+          <div class="news__link-container">
+            <a class="news__link" href="#">more...</a>
+          </div>
+        </div>
+        <div class="news__item">
+          <img class="news__img" src="img/news_3.jpg" alt="news-3" />
+          <p class="news__info">
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis
+            autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis
+            autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem
+            vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer
+          </p>
+          <div class="news__link-container">
+            <a class="news__link" href="#">more...</a>
+          </div>
+        </div>
+        <div class="news__item">
+          <img class="news__img" src="img/news_4.jpg" alt="news-4" />
+          <p class="news__info">
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis
+            autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis
+            autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem
+            vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer
+          </p>
+          <div class="news__link-container">
+            <a class="news__link" href="#">more...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-site">
+      <div class="about-site__wrapper">
+        <div class="about-site__img-wrapper">
+          <img class="about-site__img" src="img/site_1.jpg" alt="site_1" />
+          <img class="about-site__img" src="img/site_2.jpg" alt="site_2" />
+          <img class="about-site__img" src="img/site_3.jpg" alt="site_3" />
+          <img class="about-site__img" src="img/site_4.jpg" alt="site_4" />
+        </div>
+        <div class="about-site__info">
+          <h3 class="about-site__header">Welcome to the site</h3>
+          <p class="about-site__text">
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis
+            autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis
+            autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem
+            vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer Lorem ipsum dolor sit amet, uer uer Duis autem vel eum
+            iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet,
+            consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet,
+            uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor.
+            ipsum dolor sit amet, consectetuer Lorem ipsum dolor sit amet, uer
+            uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum
+            dolor sit amet, sectetuer.
+          </p>
+          <div class="about-site__link-container">
+            <a class="about-site__link" href="#">more...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <span class="footer__info">Terms of Service</span>
+        <span class="footer__info">Privacy Policy</span>
+        <span class="footer__info"
+          >© 2009 Designzzz (<a href="#">www.designzzz.com</a>)</span
+        >
+      </div>
+    </footer>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
